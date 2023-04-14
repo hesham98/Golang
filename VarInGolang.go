@@ -42,8 +42,8 @@ func main() {
 	// println(p1.name, p1.age)
 
 	//channels
-	messages := make(chan string)
-	go func() { messages <- "Hi" }()
-	msg := <-messages
-	println(msg)
+	// messages := make(chan string)
+	// go func() { messages <- "Hi" }()
+	// msg := <-messages
+	// println(msg)
 }
