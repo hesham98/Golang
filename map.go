@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// va := map[string]string{
 	// 	"age":  "24",
@@ -25,10 +23,15 @@ func main() {
 	// 	fmt.Println("missing key", v, "ok", ok)
 
 	// he := []string{}
-	mapOfSlcie := map[string][]string{
-		"name": []string{"hesham", "mohamed", "Ali"},
-		"age":  []string{"24"},
-	}
-	fmt.Printf("map", mapOfSlcie["name"])
+	// mapOfSlcie := map[string][]string{
+	// 	"name": []string{"hesham", "mohamed", "Ali"},
+	// 	"age":  []string{"24"},
+	// }
+	// fmt.Printf("map", mapOfSlcie["name"])
 
+	// ma := map[int]string{
+	// 	24: "age of hesham",
+	// 	58: "age of mama",
+	// }
+	// fmt.Println("key =", ma)
 }
